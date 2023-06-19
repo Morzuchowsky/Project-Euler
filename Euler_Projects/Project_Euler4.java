@@ -1,7 +1,7 @@
 public class Project_Euler4 {
     public static void main(String[] args) {
         //A palindromic number reads the same both ways.
-        // The largest palindrome made from the product of two-digit numbers is 9009 == 91 X 99
+        //The largest palindrome made from the product of two-digit numbers is 9009 == 91 X 99
         //Find the largest palindrome made from the product of two 3-digit numbers.
 
         int largestPalindrome = 0;
