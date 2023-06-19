@@ -9,7 +9,7 @@ public class Project_Euler5 {
             if (result % smallestMultiply != 0) {
                 result++;
                 smallestMultiply = 20;
-            } else if (result % smallestMultiply == 0){
+            } else if (result % smallestMultiply == 0) {
                 smallestMultiply--;
             }
         }
