@@ -1,5 +1,4 @@
 🧮 Project Euler Solutions 💡
-Banner
 
 📝 Description
 Welcome to the repository of my Project Euler solutions! 🎉 This is where I solve and share mathematical problems from Project Euler using various programming languages.
