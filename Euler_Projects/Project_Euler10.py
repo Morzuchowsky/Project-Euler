@@ -1,21 +1,14 @@
 # The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 # Find the sum of all the primes below two million.
 
-def is_prime(num_1):
-    for i in range(2, num_1):
-        if num_1 % i == 0:
-            return False
-    return True
+def prime_sum(limit):
+    sieve = [True] * limit
+    sieve[0], sieve[1] = False, False
+    for i in range(2, int(limit ** 0.5) + 1):
+        if sieve[i]:
+            for j in range(i * i, limit, i):
+                sieve[j] = False
+    return sum(i for i, is_prime in enumerate(sieve) if is_prime)
 
 
-def prime_range():
-    num_2 = 2
-    final_sum = 0
-    while num_2 < 2000000:
-        if is_prime(num_2):
-            final_sum += num_2
-        num_2 += 1
-    return final_sum
-
-
-print(prime_range())
+print(prime_sum(2000000))
