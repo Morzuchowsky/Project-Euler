@@ -7,11 +7,11 @@ Project Euler offers a platform to challenge oneself in solving complex mathemat
 
 Repository Contents
 
-    Solutions: Contains the code files for each problem solved.
-    References: At times, I include explanations or references to understand the math behind the problems.
-    Languages Used
-    Java
-    Python
+Solutions: Contains the code files for each problem solved.
+References: At times, I include explanations or references to understand the math behind the problems.
+Languages Used
+Java
+Python
 
 Contributing
 Feel free to fork the repository, solve problems, and suggest new solutions through pull requests.
